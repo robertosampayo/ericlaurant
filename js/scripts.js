@@ -131,15 +131,27 @@ $(document).ready(function () {
     var span = document.getElementsByClassName("close")[0];
 
 
+    if (btn != null) {
 
-    // When user clicks button, open Modal
-    btn.onclick = function() {  
+          // When user clicks button, open Modal
+          btn.onclick = function() {  
 
-         modal.style.display = "flex";      
-    };
+               modal.style.display = "flex";      
+          };
 
-    // When user clicks Close (x), close Modal
-    span.onclick = function() {    modal.style.display = "none";    };
+      
+    }
+
+    if (span != null) {
+
+          // When user clicks Close (x), close Modal
+          span.onclick = function() {    modal.style.display = "none";    };
+
+      
+    }
+
+  
+
 
     // When user clicks anywhere outside of the Modal, close Modal
      window.onclick = function(event) {

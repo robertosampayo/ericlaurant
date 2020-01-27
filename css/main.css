@@ -120,6 +120,7 @@ li{
   -webkit-transition: all 0.25s; transition: all 0.25s; 
 }
 
+  .zindexUp{ z-index: 9999!important; }
 
   input:focus{ outline: none; }
 
@@ -239,7 +240,7 @@ li{
 
   /* START MODAL ZOOM MENU */
   /*Fake-Trigger*/
-  #sized {
+/*  #sized {
     width: 100%;
         height: auto;
         color: transparent;
@@ -248,6 +249,18 @@ li{
         display: flex;
         justify-content: left;
         width: 90%;
+  }*/
+
+  .menu__mobile{
+    width: 100%;
+        height: auto;
+        color: transparent;
+        background-color: transparent;
+        border: transparent;
+        display: flex;
+        justify-content: left;
+        width: 90%;
+
   }
 
   /*Modal-Box*/
@@ -285,9 +298,14 @@ li{
   }
 
   .modal-body {
-      padding: 2px 16px;
-      background-color: #FFF;
-      margin-bottom: 20%;
+        padding: 2px 16px;
+        background-color: #FFF;
+        height: 65vh;
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
   }
 
   .modal-footer {
@@ -304,7 +322,9 @@ li{
   }
 
   .modal-footer>p {
-    color: #000
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .modal-footer h3 {
@@ -824,7 +844,39 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
       nav{ height: 85px; }
 
-      .nav__mobile{ display: flex; }
+      nav .lines {
+        border-bottom: 15px double #323441;
+            border-top: 5px solid #323441;
+            content: "";
+            height: 25px;
+            width: 39px;
+            padding-right: 15px;
+            float: right;
+      }
+
+        #sized{
+               display: flex;
+               height: 65px;
+               align-items: center;
+               width: 20%;
+               justify-content: flex-end;
+        }
+
+
+       .menu__mobile{
+                  height: auto;
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          display: flex;
+          justify-content: space-between;
+          width: 90%;
+          flex-direction: row;
+          margin: 0;
+       }
+
+
+      .nav__mobile{ display: flex; justify-content: center;}
       .nav__desktop{ display: none; }
       .slider { width: 100%;  height: 500px;}
 
@@ -839,7 +891,32 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
       button.seccion3__button { margin-top: 60px; }
 
+      .comocomprar {
+          margin-top: 30px;
+          margin-bottom: 30px;
+          height: 100%;
+      }
+      .comocomprar__content { flex-direction: column; padding: 0; width: 80%;     margin-bottom: 50px;}
 
+      .comocomprar__picture { flex-direction: column; }
+
+      .contacto{ width: 100%; }
+
+      .contacto__mapa {
+          width: 100%;
+          margin-bottom: 50px;
+      }
+
+      .contacto__mapa iframe{ width: 90%!important; }
+
+
+
+      .contacto { display: flex; height: auto; flex-direction: column;}
+
+      .contacto__content { width: 100%;height: 100%; display: flex; flex-direction: column; position: relative;  text-align: left; padding: 0;}
+      .contacto__content form label{ width: 90%; margin-bottom: 10px;}
+
+      .contacto__content form { display: flex;flex-direction: column; width: 100%;  align-items: center;}
 
       .footer__seccion1{ height: 15%; display: flex;  align-items: center;  margin-top: 30px;}
       .footer__seccion2, .footer__seccion3 {  height: auto;}
@@ -1125,27 +1202,38 @@ and (min-width : 1824px) {
   header>nav>ul.menu__desktop {  width: 30%; }
 
 
+  .comocomprar__picture {   width: 40%; }
+
+  .comocomprar__content {
+      width: 60%;
+      height: 100vh; }
 
 
-  .swiper-slide h1{ font-size:60px; text-align:center;}
+  .comocomprar__title, .comocomprar__content h1, p.comocomprar__texto  { width: 70%;  margin: 0 auto; margin-bottom: 30px;}
+  .comocomprar__content hr{ width: 80%; border-width: 0.5px; }
 
-  .seccion1 { width: 85vw; }
-
-  .staff{ width: 80%; }
-
-  .staff__contenido p { font-size: 16px; }
-
-  .footer__contenido .footer__redes{ right: 0%; width: 45%; padding-right: 10%; }
-
-  .footer__contenido h3{ font-size: 25px; }
-
-  .staff__contenido img{  width: 80%;   }
-
-  .empresa__contenido {   width: 80%; }
+  .contacto {    width: 70%; }
+  #easyPaginate {   width: 60%; }
 
 
+  .swiper-container .slide1 {  background-position-y: 50%; }
+
+  .slider {  height: 800px; }
+
+  .seccion1__content .left img, .seccion1__content .right img {  width: 80%; }
+
+  header>nav .nav__redes ul { width: 30%}
 
 
+  .seccion3__content {
+      width: 40%;
+  }
+
+  .seccion2 {   height: 800px;  }
+
+  button.seccion3__button { margin-top: 50px; margin-bottom: 50px;}
+
+  .seccion1 {      padding: 15vh 0 15vh 0;}
   /*Navigation Inner Styling*/
 
   .nav ul li a:hover{
