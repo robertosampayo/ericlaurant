@@ -1,0 +1,49 @@
+<svg id="Grupo_45" data-name="Grupo 45" xmlns="http://www.w3.org/2000/svg" width="134.208" height="125.82" viewBox="0 0 134.208 125.82">
+  <g id="Grupo_44" data-name="Grupo 44" transform="translate(0 0)">
+    <g id="Grupo_43" data-name="Grupo 43">
+      <g id="Grupo_39" data-name="Grupo 39" transform="translate(0 29.358)">
+        <g id="Grupo_38" data-name="Grupo 38">
+          <g id="Grupo_28" data-name="Grupo 28" transform="translate(0 79.686)">
+            <path id="Trazado_30" data-name="Trazado 30" d="M284.591,216.776H169.617L160,207.159V200h53.293l4.194,4.194h19.234L240.915,200h53.293v7.159Zm-113.238-4.194h111.5l7.159-7.159v-1.229H242.651l-4.194,4.194H215.751l-4.194-4.194H164.194v1.229Z" transform="translate(-160 -200)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_29" data-name="Grupo 29" transform="translate(8.388)">
+            <path id="Trazado_31" data-name="Trazado 31" d="M168.194,237.492H164v-67.1A8.4,8.4,0,0,1,172.388,162h2.1v4.194h-2.1a4.2,4.2,0,0,0-4.194,4.194Z" transform="translate(-164 -162)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_30" data-name="Grupo 30" transform="translate(115.335)">
+            <path id="Trazado_32" data-name="Trazado 32" d="M225.485,237.492h-4.194v-67.1a4.2,4.2,0,0,0-4.194-4.194H215V162h2.1a8.4,8.4,0,0,1,8.388,8.388Z" transform="translate(-215 -162)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_31" data-name="Grupo 31" transform="translate(56.318 67.841)">
+            <rect id="Rectángulo_14" data-name="Rectángulo 14" width="4" height="4" transform="translate(0.266 0.411)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_32" data-name="Grupo 32" transform="translate(48.508 67.841)">
+            <rect id="Rectángulo_15" data-name="Rectángulo 15" width="4" height="4" transform="translate(0.076 0.411)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_33" data-name="Grupo 33" transform="translate(65.864 67.841)">
+            <rect id="Rectángulo_16" data-name="Rectángulo 16" width="4" height="4" transform="translate(-0.28 0.411)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_34" data-name="Grupo 34" transform="translate(73.675 67.841)">
+            <rect id="Rectángulo_17" data-name="Rectángulo 17" width="4" height="4" transform="translate(-0.09 0.411)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_35" data-name="Grupo 35" transform="translate(81.485 67.841)">
+            <rect id="Rectángulo_18" data-name="Rectángulo 18" width="5" height="4" transform="translate(0.1 0.411)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_36" data-name="Grupo 36" transform="translate(90.163 67.841)">
+            <rect id="Rectángulo_19" data-name="Rectángulo 19" width="33" height="4" transform="translate(0.421 0.411)" fill="#5b27d3"/>
+          </g>
+          <g id="Grupo_37" data-name="Grupo 37" transform="translate(10.325 67.841)">
+            <rect id="Rectángulo_20" data-name="Rectángulo 20" width="34" height="4" transform="translate(0.26 0.411)" fill="#5b27d3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_40" data-name="Grupo 40" transform="translate(23.067)">
+        <path id="Trazado_33" data-name="Trazado 33" d="M215.037,236.074a44.037,44.037,0,1,1,44.037-44.037A44.085,44.085,0,0,1,215.037,236.074Zm0-83.88a39.843,39.843,0,1,0,39.843,39.843A39.887,39.887,0,0,0,215.037,152.194Z" transform="translate(-171 -148)" fill="#5b27d3"/>
+      </g>
+      <g id="Grupo_41" data-name="Grupo 41" transform="translate(48.231)">
+        <path id="Trazado_34" data-name="Trazado 34" d="M201.873,236.074c-10.584,0-18.873-19.343-18.873-44.037S191.289,148,201.873,148s18.873,19.343,18.873,44.037S212.456,236.074,201.873,236.074Zm0-83.88c-6.943,0-14.679,16.363-14.679,39.843s7.736,39.843,14.679,39.843,14.679-16.363,14.679-39.843S208.816,152.194,201.873,152.194Z" transform="translate(-183 -148)" fill="#5b27d3"/>
+      </g>
+      <g id="Grupo_42" data-name="Grupo 42" transform="translate(23.067 25.164)">
+        <path id="Trazado_35" data-name="Trazado 35" d="M215.037,197.746c-24.694,0-44.037-8.289-44.037-18.873S190.343,160,215.037,160s44.037,8.289,44.037,18.873S239.731,197.746,215.037,197.746Zm0-33.552c-23.48,0-39.843,7.736-39.843,14.679s16.363,14.679,39.843,14.679,39.843-7.736,39.843-14.679S238.517,164.194,215.037,164.194Z" transform="translate(-171 -160)" fill="#5b27d3"/>
+      </g>
+    </g>
+  </g>
+</svg>
