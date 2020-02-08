@@ -71,6 +71,18 @@ li{
   transform: translatey(-5px);
 }
 
+.blank{ color: #fff; }
+
+.iconsize{ width: 30px; margin: 0 auto; padding: 0;transform: translateY(5px); }
+
+.hoverbigblank:hover{ color: #FFF; }
+
+.gotolink{
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -553,9 +565,9 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
   .swiper-slide { width: 100vw; display: flex; align-items: center;  justify-content: center; background-color: #fff;}
 
-  .swiper-container .slide1{ background: url(../img/floral-background.png) no-repeat; background-size: cover; width: 100%; }
+  .swiper-container .slide1{ background: url(../img/Banner1.png) no-repeat; background-size: cover; width: 100%; }
 
-  .swiper-container .slide2{ background: url(../img/beauty1.jpg) no-repeat; background-size: cover; width: 100%; }
+  .swiper-container .slide2{ background: url(../img/Banner2.png) no-repeat; background-size: cover; width: 100%; }
 
 
   .swiper-slide h1{ font-family: 'Domine', serif; color: #fff; letter-spacing: 2px; font-size: 80px}
@@ -580,12 +592,12 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
   .seccion2 { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 600px; background: #fff; }
 
-  .seccion3{ display: flex; flex-direction: column; justify-content: center; align-items: center; height: 400px; text-align: center; }
+  .seccion3{ display: flex; flex-direction: column; justify-content: center; align-items: center; height: 600px; text-align: center; }
 
   .seccion3__content{ width: 70%; }
   .seccion3__title{ font-size: 30px; margin: 0; }
 
-  .seccion3__texto{ font-size: 22px; }
+  .seccion3__texto { font-size: 18px; width: 80%;  margin: 0 auto;  margin-top: 50px;  margin-bottom: 50px; }
 
   button.seccion3__button { background-color: #323441; color: #fff; display: flex;justify-content: center; align-items: center; margin: 0 auto; padding: 15px; border:0; margin-bottom: 50px;}
   
