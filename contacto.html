@@ -111,21 +111,24 @@
         <section class="contacto">
             <div class="contacto__content">
 
-                  <form>
+                  <form id="confirmar-datos">
                     <label>NOMBRE</label>
-                    <input type="" name="">
+                    <input type="text" name="nombre" id="nombre" required>
 
                     <label>TELEFONO</label>
-                    <input type="" name="">
+                    <input type="name" name="telefono" id="telefono" required>
 
                     <label>EMAIL</label>
-                    <input type="" name="">               
+                    <input type="mail" name="mail" id="mail" required>               
 
                     <label>MENSAJE</label>
-                    <textarea></textarea>
+                    <textarea type="textarea" name="mensaje" id="mensaje" required></textarea>
 
-                    <input type="submit" class="enviar" value="ENVIAR" name="">
+                    <input type="submit" class="enviar" value="ENVIAR" id="confirmar-datos" name="">
+                    <label id="back-success" style="color:green"></label>
+                  <!-- <div " style="color: green;"> <div> -->
                   </form>
+
                    
             </div>
 
@@ -225,6 +228,54 @@
             }
         }
     });
+
+
+    $('#confirmar-datos').on('submit', function (e) {
+        e.preventDefault();
+
+
+
+
+            $.ajax({
+                type: "POST",
+                url: "guardar.php",
+                statusCode: {
+                    404: function() {
+                      alert( "page not found" );
+                    }
+                },
+                data: {
+                    'nombre': $('#nombre').val(),
+                    'telefono': $('#telefono').val(),
+                    'mail': $('#mail').val(),
+                    'mensaje': $('#mensaje').val(),
+                },
+                dataType: "json"
+            }).done(function (data) {
+
+                if( data.success ) {
+
+
+                  $('#back-success').html('<p style="color:green;">Mensaje Enviado!, Gracias por contactarnos.</p>');
+                  $('#nombre').val("");
+                  $('#telefono').val("");
+                  $('#mail').val("");
+                  $('#mensaje').val("");
+
+                  console.log("success!");
+   
+                }else{
+                    console.log("error");
+                }
+            }).fail(function(data) {
+                // $('#back-success').html('<p style="color:green;">Mensaje Enviado!, Gracias por contactarnos.</p>');
+                // alert( "error" );
+                console.log(data);
+            });
+
+          });
+  
+
   </script>
 
 </body>
