@@ -193,7 +193,7 @@ $(document).ready(function () {
 
     $('#easyPaginate').easyPaginate({
         paginateElement: 'li',
-        elementsPerPage: 9,
+        elementsPerPage: 21,
         effect: 'fade'
     });
 
